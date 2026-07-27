@@ -1,0 +1,103 @@
+body {
+  margin: 0px;
+  Background-color : bisque ;
+  Padding : 0px;
+}
+p {
+  Font-family : Arial; 
+  Font-size :1.3em;
+  /*text-align : justify;*/
+  padding : 0px 15px 0px 15px; 
+}
+.th1 {
+  Background-color : black;
+  Color : white ;
+  Padding : 20px;
+  Margin : 0px;
+  Width :100%;
+}
+header {
+  Background-color :black ;
+  Color : white ;
+  text-align : center ;
+  Padding-top: 20px;
+  Padding-bottom: 20px;
+  /*Width : 100%;*/
+  width : 100%;
+}
+main {
+  /*Margin-top:405px;*/
+}
+#ruth {
+  Width : 240px; height:240px; 
+  border-radius : 120px;
+}
+nav {
+  Background-color :#f5e5e5;
+  Padding :10px ;
+}
+ul {
+  display : flex;
+  /*align-items : center ;*/
+  justify-content:space-around;
+  list-style : none;
+  Padding-left : 0px;
+  Margin:0px;
+  
+  /*color : white ;*/
+}
+a {
+    color: #667eea;  /* Couleur personnalisée */
+}
+a:hover {
+    color: #764ba2;  /* Couleur au survol */
+}
+section {
+  display : flex;
+  @media (max-width: 576px) {
+    display : block;
+  }
+}
+.album {
+  font-style : italic;
+}
+h2 { /*Titre album*/
+  margin : 0px 0px 0px 20px;  
+}
+.music-item {
+  margin : 0px 0px 0px 20px; 
+}
+.photo {
+  width: 30%;
+  height: auto;
+  Max-width : 100%;
+  align-self: flex-start; /*éviter étirement*/
+  padding :20px 0px 0px 15px; 
+  @media (max-width: 576px) {
+    display : block;
+    margin: 0 auto;
+    padding :20px 0px 0px 0px; 
+    width: 40%;
+  }
+}
+.qrcode {
+  display : block;
+  margin: 0 auto;
+  padding :20px 0px 0px 0px; 
+  width: 40%;
+}
+.momo {
+  text-align: center;
+}
+footer {
+  text-align : center; 
+  padding : 10px ;
+  Background-color : black; color : white;
+  Font-size :1em;
+  /*Margin-bottom:0px;*/
+  Width : 100%;
+}
+.pFooter {
+  text-align : center; 
+  Font-size : 0.95em;
+}
